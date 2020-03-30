@@ -16,6 +16,8 @@
     
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
+         background-image: linear-gradient(blue,skyblue);
+
       margin-bottom: 0;
     }
    
@@ -35,6 +37,60 @@
           padding-top: 10px;
           padding-bottom: 0px;
           border-radius: 25px;
+      }
+      img{
+          height: 180px;
+          width: 200px;
+      }
+      .me{
+          height: 150px;
+          width: 150px;
+          padding-top: 10px;
+          padding-bottom: 0px;
+          border-radius: 25px;
+      }
+      h1{
+          padding-top: 35px;
+          font-weight: 400;
+          color: white;     
+          text-shadow: 3px 1px;
+      }
+      .icons{
+          height: 40px;
+          width: 50px;
+          border-radius: 30px;
+      }
+      hr{
+          color: grey;
+          height: 0px;
+      }
+      body{
+          font-family: 'Times New Roman', Times, serif;
+      }
+      .modal-title{
+          font-weight: bold;
+      }
+      table{
+          font-size: large;
+      }
+      .image{
+          height: 50px;
+          width: 50px;
+          border-radius: 20px;
+      }
+      .study,.obj,.art,.pri,.sk{
+        height: 30px;
+        width: 30px;
+      }
+      .cat{
+          border: 2px solid grey;
+          border-radius: 25px;
+          cursor: pointer;
+      }
+      .cont{
+        border: 2px solid grey;
+        border-radius: 20px;
+        padding: 20px;
       }
   </style>
 </head>
@@ -59,83 +115,175 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
     </div>
+    <div class="container">
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Deals</a></li>
-        <li><a href="#">Stores</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Objective">Objective</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Educational_Qualifications">Educational Qualifications</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Technical_Skills">Technical Skills</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Extra_Curricular_Activities">Extra-Curricular Activities</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Awards_Honours">Awards & Honours</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Personal_Skills">Personal Skills</a></li>
+        <li><a class="nav-link" data-toggle="tab" href="#Personal_Information">Personal Information</a></li>
       </ul>
     </div>
   </div>
 </nav>
-
-<div class="container">    
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-danger">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-success">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
+<div class="tab-content">
+  <div id="Objective" class="tab-pane fade"><br>
+    <div class="cont">
+      <h3><img src="object.png" class="obj"> To become a successful professional in any field , utilizing my skills and enable further personal and professional development and work towards the prosperity of the organization.</h3>
     </div>
   </div>
-</div><br>
-
-<div class="container">    
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
-    </div>
-    <div class="col-sm-4"> 
-      <div class="panel panel-primary">
-        <div class="panel-heading">BLACK FRIDAY DEAL</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
-      </div>
+  <div id="Educational_Qualifications" class="tab-pane fade"><br>
+    <div class="cont">
+      <h4><img src="prize.png" class="pri">Won First Prize in “Technical Modal Display”, at Sri Kaliswari College, Sivakasi</h4>            
+      <h4><img src="prize.png" class="pri">Won Second Prize in STARTA’19 on Web Designing at AyyaNadar Janaki Ammal College, Sivakasi.</h4>
+      <h4><img src="prize.png" class="pri">Won Second Prize in TECHSYS’19 on Paper Presentation at Raju's College, Rajapalayam.</h4>
     </div>
   </div>
-</div><br><br>
+  <div id="Technical_Skills" class="tab-pane fade"><br>
+    <div class="cont">
+      <center>
+      <table>
+        <tbody>
+            <tr>
+                <th>Programming Languages</th>
+                <td>
+                    <div>
+                        <img src="c.png" class="image ">&nbsp;
+                        <img src="cpp.jpg" class="image">&nbsp;
+                        <img src="java.jpg" class="image">&nbsp;
+                        <img src="cs.jpg" class="image">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Mobile Application</th>
+                <td>
+                    <div>
+                        <img src="android.jpg" class="image">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Content Management System</th>
+                <td>
+                    <div>
+                        <img src="drupal.png" class="image">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Database</th>
+                <td>
+                    <div>
+                        <img src="sql.png" class="image">&nbsp;
+                        <img src="mongo.png" class="image">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Web Application</th>
+                <td>
+                    <div>
+                        <img src="boot.jpg" class="image">&nbsp;
+                        <img src="php.png" class="image">&nbsp;
+                        <img src="vb.jpg" class="image">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th>Frame Work</th>
+                <td>
+                    <div>
+                        <img src="net.jpg" class="image">&nbsp;
+                        <img src="angular.jpg" class="image">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>  
+    </center>
+    </div>
+  </div>
+  <div id="Extra_Curricular_Activities" class="tab-pane fade"><br>
+    <div class="cont">
+      <h4><img src="activity.png" class="art">Participated in “Science Innovation Award 2015”, conducted by Ranganayaki Varatharaj College of Engineering.</h4>
+      <h4><img src="activity.png" class="art">Participated in the “Youth Convention TamilNadu 2017”, held at the Ramakrishna Mission Vidyalaya, Periyanayakanpalayam, Coimbatore.</h4>
+      <h4><img src="activity.png" class="art">Participated in School Level Painting Competition on “Save Water, Secure Future” ,organized by Ministry of Water Resources, Government of India.</h3>
+      <h4><img src="activity.png" class="art">Participated in the “National Level Talent Search Examination”, organized by JCI India .</h4>
+      <h4><img src="activity.png" class="art">Participated in “Brain Teaser”, organized by Rotatory Club of Sivakasi.</h4>
+    </div>
+  </div>
+  <div id="Awards_Honours" class="tab-pane fade"><br>
+    <div class="cont">
+      <h4><img src="prize.png" class="pri">Won First Prize in “Technical Modal Display”, at Sri Kaliswari College, Sivakasi</h4>            
+      <h4><img src="prize.png" class="pri">Won Second Prize in STARTA’19 on Web Designing at AyyaNadar Janaki Ammal College, Sivakasi.</h4>
+      <h4><img src="prize.png" class="pri">Won Second Prize in TECHSYS’19 on Paper Presentation at Raju's College, Rajapalayam.</h4>
+    </div>
+  </div>
+  <div id="Personal_Skills" class="tab-pane fade"><br>
+    <div class="cont">
+      <h4><img src="tik.png" class="sk">Self Confidence</h4>
+      <h4><img src="tik.png" class="sk">Leadership quality </h4>
+      <h4><img src="tik.png" class="sk">Flexible to work under pressures during Critical times</h4>
+      <h4><img src="tik.png" class="sk">Hard Worker</h4>   
+    </div>
+  </div>
+  <div id="Personal_Information" class="tab-pane fade"><br>
+    <div class="cont">
+      <center>
+      <table>
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Mr R.Uma Shankar</td>
+            </tr>
+            <tr>
+                <th>Father’s Name</th>
+                <td>Mr  C.Ramesh</td>
+            </tr>
+            <tr>
+                <th>Mother’s Name</th>
+                <td>Mrs R.ManiMala</td>
+            </tr>
+            <tr>
+                <th>Permanent Address</th>
+                <td>2/383,”A”, South Street, Poolavourani, Sivakasi</td>
+            </tr>
+            <tr>
+                <th>Date of Birth	</th>
+                <td>05.10.1999</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>Indian</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <th>Marital Status</th>
+                <td>Unmarried</td>
+            </tr>
+            <tr>
+                <th>Hobbies</th>
+                <td>Search Latest Things, Video Editing</td>
+            </tr>
+            <tr>
+                <th>Languages Known</th>
+                <td>English, Tamil (Read, Speak &Write)</td>
+            </tr>
+        </tbody>
+    </table>
+    </center>  
+    </div>
+  </div>
+</div>
 
-<footer class="container-fluid text-center">
-  <p>Online Store Copyright</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-danger">Sign Up</button>
-  </form>
-</footer>
 
 </body>
 </html>
